@@ -682,6 +682,7 @@ body{
     box-sizing: border-box;
     padding-top: 26%; padding-left: 2.5%;
     font-size: 0.8svw;
+    cursor: pointer;
 }
 #section .main_7 .review .re_con2{
     background-image: url(images/kodak_47.png);
@@ -691,6 +692,7 @@ body{
     box-sizing: border-box;
     padding-top: 26%; padding-left: 2.5%;
     font-size: 0.8vw;
+    cursor: pointer;
 }
 #section .main_7 .review .re_con3{
     background-image: url(images/kodak_50.png);
@@ -701,6 +703,7 @@ body{
     padding-top: 26%; padding-left: 3%;
     padding-bottom: 3%;
     font-size: 0.8vw;
+    cursor: pointer;
 }
 #footer{
     background-color: black;
@@ -820,7 +823,7 @@ body{
     top:-5%; left: 50%;
 }
 #section .main_2 .main2_left .con2>h1{
-    width: 94%; height: 48%;
+    width: 94%; height: 49%;
 }
 #section .main_2 .main2_left .con3{
     width: 35%; height:61%;
@@ -1250,7 +1253,7 @@ animation: typing 5s steps(30) infinite;
 #section .main_3 .era>p{
    position: absolute;
    top:90%;
-   left:0dvb;
+   left:2%;
    z-index: 101;
 }
 #section .main_3 .era_2{
@@ -1273,19 +1276,22 @@ animation: typing 5s steps(30) infinite;
 }
 #section .main_3 .era_2 .era_con{
     flex-wrap: nowrap;
-    width:100%; height: 100%;
+    width:100%; height: 105%;
     justify-content: space-between;
 }
 #section .main_3 .era_2 .era_con li{
     border-radius: 50%;
     /* margin-top: -15px; */
-    width: 100%; height: 70%;
+    width: 100%; height: 65%;
     padding-top: 10px;;
     margin-top:20px;
     margin-left: 20px;
     box-sizing: border-box;
     overflow: hidden;
     background-color: #ecececd3;
+}
+#section .main_3 .era_2 .era_con li:first-child>img{
+    padding-top: 7%;
 }
 #section .main_3 .era_2 .era_con li p{
     display: none;
@@ -1446,7 +1452,7 @@ animation: typing 5s steps(30) infinite;
     width:45%;
     position: absolute;
     top:0;
-    left: 2%;
+    left: 3%;
 }
 #section .main_7 .review>.re_con1>p{
     font-size: 1.35vw;
@@ -1460,12 +1466,12 @@ animation: typing 5s steps(30) infinite;
     width:45%;
     position: absolute;
     top:0;
-    right: 2%;
+    right: 3%;
 }
 #section .main_7 .review>.re_con2>p{
     font-size: 1.35vw;
     padding-top: 34%;
-    padding-left: 3%;
+    padding-left: 2%;
 }
 #section .main_7 .review>.re_con2:hover{
     transform: scale(1.1);
@@ -1508,7 +1514,37 @@ animation: typing 5s steps(30) infinite;
     display: none;
 }
 }
-/* 모바일1----------------------------------------- */
+/* 모바일2--------------------------- */
+@media all and (max-width: 700px){
+    #section .main_2 .main2_left .con1>h1{
+        display: block;
+        padding-top: 9%;
+        width:100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+    #section .main_2 .main2_left .con2>h1{
+        display: block;
+        padding-top: 7%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+    #section .main_2 .main2_left .con3>h1{
+        display: block;
+        width: 100%;
+        padding-top: 11%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        box-sizing: border-box;
+    }
+}
+/* 모바일3----------------------------------------- */
 @media all and (max-width: 600px){
 #footer{
     width: 100%; height: 300%;
@@ -1517,7 +1553,7 @@ animation: typing 5s steps(30) infinite;
     font-size: 1.5vw;
 }
 }
-/* 모바일2-------------------------------------- */
+/* 모바일4-------------------------------------- */
 @media all and (max-width: 400px){
     #footer{
         width: 100%; height: 230%;
