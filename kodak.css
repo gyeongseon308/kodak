@@ -86,7 +86,7 @@ body{
     position: fixed;
     right: 0px; top: 0;
     z-index: 1000000;
-    background-color: rgba(0, 0, 0, 0.705);
+    background-color: rgba(0, 0, 0, 0.839);
     cursor: pointer;
 }
 #header .side_menu .close img{
@@ -1320,7 +1320,7 @@ animation: typing 5s steps(30) infinite;
 }
 #section .main_4 .retro_1 .retro_con{
     flex-wrap: nowrap;
-    width: 100%;
+    width: 99%;
     margin: 0 auto;
     margin-left: 0.8%;
     box-sizing: border-box;
@@ -1330,8 +1330,9 @@ animation: typing 5s steps(30) infinite;
 #section .main_4 .retro_1 .retro_con li{
     border-radius: 50%;
     padding-bottom: 3%;
+    margin-left: 5px;
+    margin-right: 5px;
     width:100%;
-    margin-right: 10px;
     background-color: #ecececd3;
     overflow: hidden;
 }
